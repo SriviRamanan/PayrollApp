@@ -13,7 +13,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node process_payroll.js $CSV_INPUT"
+
   },
   "repository": {
     "type": "git",
