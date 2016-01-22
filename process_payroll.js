@@ -5,7 +5,6 @@ var processPayroll = module.exports = function(inpArr){
 		return;
 	}
 	var payroll = require("./payroll");
-	console.log(inpArr[2]);
 	payroll(inpArr[2]).main();
 }
 

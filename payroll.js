@@ -156,6 +156,7 @@ not a valid number.\n\tSuper rate should be between 0 - 50% (inclusive).');
 			if (error) {
 				return console.error(error);
 			}
+			console.log("Payroll generated at result.csv.");
 		});
 
 		// Read input csv file and pipe it to the parser 
