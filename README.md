@@ -19,7 +19,7 @@ The application requires Node.js environment and has been tested with node v4.2.
 
 ## Usage
 
-Usage: npm start <input csv file>
+Usage: npm start 'input csv file'
 
 ## Tests
 npm test
