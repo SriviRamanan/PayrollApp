@@ -12,10 +12,10 @@
 
 ##Installation
 The application requires Node.js environment and has been tested with node v4.2.4. To get the application working, please follow the steps below:
-1. Clone the repository from git hub URL: https://github.com/SriviRamanan/PayrollApp.git
-2. Run 'npm install'
-3. Run the application using the command mentioned in the 'Usage' section. The output CSV list will be stored in result.csv. 
-4. Run the tests using the command mentioned in the 'Tests' section
+- Clone the repository from git hub URL: https://github.com/SriviRamanan/PayrollApp.git
+- Run 'npm install'
+- Run the application using the command mentioned in the 'Usage' section. The output CSV list will be stored in result.csv. 
+- Run the tests using the command mentioned in the 'Tests' section
 
 ## Usage
 
