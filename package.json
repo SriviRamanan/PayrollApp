@@ -6,6 +6,7 @@
   "dependencies": {
     "csv-streamify": "^3.0.3",
     "fast-csv": "^1.0.0",
+    "isnumeric": "^0.3.1",
     "jest-cli": "^0.8.2",
     "string": "^3.3.1",
     "validate.io-nan": "^1.0.3",
@@ -15,7 +16,6 @@
   "scripts": {
     "test": "jest",
     "start": "node process_payroll.js $CSV_INPUT"
-
   },
   "repository": {
     "type": "git",

@@ -68,8 +68,9 @@ Name should have alphabetic characters only.');
 			throw errStr;
 		}
 		
-		var vNum = require('validate.io-nan');
-		if (isNaN(employeeInfo.salary) || (employeeInfo.salary < 0)){
+		var vNumNaN = require('validate.io-nan');
+		var vIsNum = require('isnumeric');
+		if (vNumNaN(employeeInfo.salary) || !(vIsNum(employeeInfo.salary)) || (employeeInfo.salary < 0)){
 			errStr.push('Employee('+employeeInfo.fname+' '+employeeInfo.lname+') salary is not a valid number.\n \t\
 Salary should be a positive number.'); 
 			throw errStr;

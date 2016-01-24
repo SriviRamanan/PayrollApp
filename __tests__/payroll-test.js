@@ -1,7 +1,6 @@
 jest.autoMockOff();
 jest.dontMock('../payroll');
 jest.dontMock('csv-streamify');
-jest.dontMock('string');
 
 var payrollModule = require('../payroll');
 payroll = payrollModule();
@@ -77,7 +76,7 @@ describe('CSV input validation', function() {
 		var employeeInfo1 = {
 			fname:"John",
 			lname:"Smith",
-			salary: -20000, 
+			salary: NaN, 
 			superRate: "8%"
 		};
 		var employeeInfo2 = {
